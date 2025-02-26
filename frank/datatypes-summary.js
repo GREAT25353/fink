@@ -41,3 +41,20 @@ console.log(typeof heros);
 console.log(typeof myObj);
 
 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchaudharydotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let user1 = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let user2= user1
